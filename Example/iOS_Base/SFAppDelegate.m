@@ -7,6 +7,7 @@
 //
 
 #import "SFAppDelegate.h"
+#import "SFViewController.h"
 
 @implementation SFAppDelegate
 
@@ -17,7 +18,7 @@
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
 
-    self.window.rootViewController = [UIViewController new];
+    self.window.rootViewController = [SFViewController new];
     [self.window makeKeyAndVisible];
     
     return YES;

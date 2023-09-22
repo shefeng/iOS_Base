@@ -21,6 +21,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		85DDBC64000994589160A13E /* Pods_iOS_Base_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D528EB8DF63CFFE9D4031BC7 /* Pods_iOS_Base_Tests.framework */; };
+		A8E6978D2A179F5B000F9D94 /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6978C2A179F5B000F9D94 /* SFViewController.m */; };
 		DCFBD4FEC97C2D753149C62D /* Pods_iOS_Base_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD457960C5122B4475F43D4 /* Pods_iOS_Base_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AD457960C5122B4475F43D4 /* Pods_iOS_Base_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Base_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7556615D9BEBA9F22FEBDA5 /* Pods-iOS_Base_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Base_Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Base_Tests/Pods-iOS_Base_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8E6978B2A179F5B000F9D94 /* SFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFViewController.h; sourceTree = "<group>"; };
+		A8E6978C2A179F5B000F9D94 /* SFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
 		AD76752A8BC20E2E0828C7B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B281D941D0C240D46CD894D4 /* Pods-iOS_Base_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Base_Tests.release.xcconfig"; path = "Target Support Files/Pods-iOS_Base_Tests/Pods-iOS_Base_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BC2C7BDA3174C4EB030897B9 /* iOS_Base.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOS_Base.podspec; path = ../iOS_Base.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -192,6 +195,8 @@
 		A8D460432A11D13F00055455 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A8E6978B2A179F5B000F9D94 /* SFViewController.h */,
+				A8E6978C2A179F5B000F9D94 /* SFViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -413,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* SFAppDelegate.m in Sources */,
+				A8E6978D2A179F5B000F9D94 /* SFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
